@@ -1,0 +1,21 @@
+• git add .
+• git commit -m “Added a reminder to clean up code”
+• git push origin master
+
+
+docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+
+Development
+Production
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+  "ConnectionStrings": { "PostgreSqlConnection":"User ID=cmddbuser; Password=pa550rd!; Host=localhost; Port=5432; Database=CmdAPI; Pooling=true;" }
+}
+dotnet user-secrets set "Password" "pa550rd!"
