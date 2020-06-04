@@ -19,3 +19,12 @@ Production
   "ConnectionStrings": { "PostgreSqlConnection":"User ID=cmddbuser; Password=pa550rd!; Host=localhost; Port=5432; Database=CmdAPI; Pooling=true;" }
 }
 dotnet user-secrets set "Password" "pa550rd!"
+
+
+
+dotnet test --filter "FullyQualifiedName=CommandAPI.Tests.CommandsControllerTests.GetCommandItemReturnsNullResultWhenInvalidID"
+
+
+Test Driven Development grew out of the “Agile” approach to software delivery
+
+git commit -m "usando Test Driven Development"

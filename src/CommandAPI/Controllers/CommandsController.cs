@@ -24,6 +24,18 @@ namespace CommandAPI.Controllers
         public ActionResult<IEnumerable<Command>> GetCommandItems() {
              return _context.CommandItems; 
         }
+
+
+        //GET: api/commands/{Id}
+        [HttpGet("{id}")]
+        public ActionResult<Command> GetCommandItem(int id) 
+        {
+            var commandItem =  _context.CommandItems.Find(id);
+            if(commandItem == null)
+                return NotFound();  //areyes se acrego para dar soporte a las prueba de test cuando no encuentra
+
+            return  commandItem;
+        }
     }
 
 
