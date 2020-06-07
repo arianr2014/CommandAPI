@@ -23,6 +23,7 @@ namespace CommandAPI.Controllers
 
         [HttpGet] 
         public ActionResult<IEnumerable<Command>> GetCommandItems() {
+            //Probando CI/CD
              return _context.CommandItems; 
         }
 
