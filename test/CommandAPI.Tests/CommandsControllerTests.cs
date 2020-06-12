@@ -348,7 +348,7 @@ namespace CommandAPI.Tests {
         //Arrange
         var command = new Command
         {
-            Howto = "Do Somethting",
+            Howto = "aRIAN rEYES",
             Plataform = "Some Platform",
             commandLine = "Some Command"
         };
