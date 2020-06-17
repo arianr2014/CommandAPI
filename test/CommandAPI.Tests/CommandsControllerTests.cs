@@ -348,9 +348,9 @@ namespace CommandAPI.Tests {
         //Arrange
         var command = new Command
         {
-            Howto = "aRIAN rEYES",
-            Plataform = "Some Platform",
-            commandLine = "Some Command"
+            Howto = "Arian Reyes",
+            Plataform = "Arian Reyes",
+            commandLine = "Arian Reyes"
         };
         dbContext.CommandItems.Add(command);
         dbContext.SaveChanges();
