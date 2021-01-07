@@ -28,3 +28,5 @@ dotnet test --filter "FullyQualifiedName=CommandAPI.Tests.CommandsControllerTest
 Test Driven Development grew out of the “Agile” approach to software delivery
 
 git commit -m "usando Test Driven Development"
+
+Establish CI/CD into internal development process, utilizing Ansible, Jenkins, AWS CodePipeline, CodeBuild, CodeDeploy.
