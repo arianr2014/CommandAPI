@@ -21,6 +21,8 @@ namespace CommandAPI.Controllers
         public ActionResult<IEnumerable<string>> Get(){
             return new string[] {"this","is","hard","coded"};
         }*/
+
+        //comand
        
         [HttpGet] 
         public ActionResult<IEnumerable<Command>> GetCommandItems() {
